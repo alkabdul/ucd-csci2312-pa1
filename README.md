@@ -15,7 +15,8 @@ in this program a 3D triangle is calculated.
    // Distructor
     ~Point();
 
-    ## // Mutator methods
+    ## Mutator methods:
+    
     void setX(double newX);
     void setY(double newY);
     void setZ(double newZ);
@@ -28,6 +29,6 @@ in this program a 3D triangle is calculated.
     double getY() const;
     double getZ() const; 
     
-      ## compiler: 
+## compiler:
       mac Xcode
 
