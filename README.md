@@ -7,7 +7,7 @@ in this program a 3D triangle is calculated.
 
 ## private:
     double x, y, z; 
-  ##  public:
+  ## public:
     // Constructors
     Point();                      
     Point(double x, double y, double z);
@@ -23,8 +23,11 @@ in this program a 3D triangle is calculated.
     
     
 
-   ##  // Accessor methods
+   ## // Accessor methods
     double getX() const;
     double getY() const;
-    double getZ() const;
+    double getZ() const; 
+    
+      ## compiler: 
+      mac Xcode
 
